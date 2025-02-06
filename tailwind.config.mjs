@@ -8,8 +8,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#6D28D9",  // Deep Purple
+        accent: "#D8B4FE",   // Lavender
+        gold: "#FACC15",     // Warm Gold
+        cream: "#FAF5FF",    // Soft Cream
+        dark: "#111827",     // Charcoal Black
       },
     },
   },
