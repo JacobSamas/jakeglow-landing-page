@@ -1,4 +1,5 @@
 import "./globals.css";
+import TourGuide from "@/components/TourGuide";
 
 export const metadata = {
   title: "JakeGlow - Luxury Salon Experience",
@@ -8,7 +9,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-cream text-dark">{children}</body>
+      <body className="bg-cream text-dark">
+        <TourGuide />
+        {children}</body>
     </html>
   );
 }

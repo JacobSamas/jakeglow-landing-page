@@ -42,7 +42,7 @@ export default function Header() {
         </motion.a>
 
         {/* Navigation with Icons */}
-        <nav className="hidden md:flex space-x-6">
+        <nav id="menu" className="hidden md:flex space-x-6">
           {[
             { href: "#home", icon: Home, label: "Home" },
             { href: "#services", icon: Scissors, label: "Services" },
