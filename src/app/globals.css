@@ -9,3 +9,35 @@ body {
 h1, h2, h3, h4, h5, h6 {
   @apply font-bold text-dark;
 }
+
+/* src/app/globals.css */
+
+.jakeglow-tour .shepherd-content {
+  background-color: #111827 !important; /* bg-dark */
+  color: #FACC15 !important; /* text-white */
+  border-radius: 1rem; /* Tailwind: rounded-xl */
+  border-bottom: 1px solid #4B5563;
+  border: 1px solid #4B5563; /* border-gray-700 */
+  padding: 1.5rem;
+}
+
+.jakeglow-tour .shepherd-title {
+  color: #FACC15 !important; 
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.jakeglow-tour .shepherd-button {
+  background-color: #6D28D9 !important; 
+  color: white !important;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.25rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.jakeglow-tour .shepherd-button:hover {
+  background-color: #5B21B6 !important; 
+}
